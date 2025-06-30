@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
 import { AuthState, User, LoginCredentials, RegisterCredentials } from '../types';
 import toast from 'react-hot-toast';
-const API_URL ='https://onetab-nine.vercel.app/api';
+const API_URL ='https://backend-v5id.onrender.com/api';
 
 interface AuthContextType extends AuthState {
   login: (credentials: LoginCredentials) => Promise<User>;

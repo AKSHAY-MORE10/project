@@ -1,7 +1,6 @@
 import { AppConfig, User } from '../types';
 
-const API_URL ='https://onetab-nine.vercel.app/api';
-
+const API_URL ='https://backend-v5id.onrender.com/api';
 
 export class UserConfigService {
   static async getUserConfig(username: string): Promise<AppConfig | null> {
